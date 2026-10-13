@@ -1,0 +1,11 @@
+---
+# CNTi Test Suite: the released Mattermost Team Edition chart with its defaults.
+config_version: "v2"
+deployments:
+  helm_charts:
+    - name: mattermost
+      helm_repo_name: mattermost
+      helm_repo_url: https://helm.mattermost.com
+      helm_chart_name: mattermost-team-edition
+      chart_version: 6.6.108
+      namespace: mattermost
